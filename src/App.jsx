@@ -12,7 +12,7 @@ function App() {
   
   const [productList, setProductList] = useState([]);
   const [currentProduct, setCurrentProduct] = useState({
-    image: "../public/violet.png",
+    image: "/violet.png",
     color: "#816BFF",
     colorName: "violet",
     size: "S",
