@@ -12,7 +12,7 @@ function App() {
   
   const [productList, setProductList] = useState([]);
   const [currentProduct, setCurrentProduct] = useState({
-    image: "/src/assets/violet.png",
+    image: "../public/violet.png",
     color: "#816BFF",
     colorName: "violet",
     size: "S",
@@ -239,7 +239,7 @@ function App() {
                         alt="Product Image"
                       />
                     </div>
-                    <p className="hidden lg:flex text-sm text-[#364A63] font-normal leading-[23.1px]">
+                    <p className="hidden md:flex text-sm text-[#364A63] font-normal leading-[23.1px]">
                       Classy Modern Smart watch
                     </p>
                   </td>
